@@ -121,7 +121,7 @@ const Vision = () => {
           >
             Strategic Goals
           </motion.h2>
-          <div className="space-y-12">
+          <div className="space-y-12 grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-5">
             {goals.map((goal, index) => (
               <motion.div
                 key={goal.year}
