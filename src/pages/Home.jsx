@@ -4,10 +4,10 @@ import CTA from '../components/CTA';
 
 const Home = () => {
   const heroContent = {
-    title: " Hello! I am Ram Bahadur",
+    title: " Hello! I am Rakesh Sahani",
     subtitle: "  Dedicated to Public Service and Progress",
     description: "  As a committed public servant, I strive to lead with integrity, transparency, and a deep commitment to uplifting our community. My mission is to bring positive change through inclusive policies, grassroots initiatives, and active citizen engagement. Together, we can build a more just, vibrant, and prosperous future.",
-    image: "/images/team-3.jpg"
+    image: "/images/rakesh_sahani2.jpeg"
   };
 
   const initiatives = [

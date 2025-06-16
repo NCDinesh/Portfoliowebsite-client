@@ -8,9 +8,9 @@ const Media = () => {
   const mediaItems = [
     {
       type: 'image',
-      title: 'Community Meeting',
-      description: 'Engaging with local residents',
-      url: '/media/community-meeting.jpg',
+      title: 'Pokhara Tour',
+      description: 'A memorable visit to Pokhara, engaging with political leaders and experiencing the rich cultural heritage of the region.',
+      url: './images/pokhara_tour.jpeg',
       category: 'Photos',
     },
     {
@@ -20,13 +20,13 @@ const Media = () => {
       url: 'https://www.youtube.com/embed/example1',
       category: 'Speeches',
     },
-    {
-      type: 'image',
-      title: 'Infrastructure Project',
-      description: 'New road construction project',
-      url: '/media/infrastructure.jpg',
-      category: 'Photos',
-    },
+{
+  type: 'image',
+  title: 'Muktinath Visit',
+  description: 'Spiritual journey to Muktinath Temple, exploring the sacred site and its breathtaking Himalayan surroundings.',
+  url: './images/muktinath_tour.jpeg',
+  category: 'Photos',
+},
     {
       type: 'video',
       title: 'TV Interview',

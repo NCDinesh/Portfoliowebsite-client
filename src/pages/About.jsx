@@ -4,14 +4,14 @@ import CTA from '../components/CTA';
 const About = () => {
   const personalInfo = {
     name: "Ram Bahadur",
-    role: "Political Leader & Community Advocate",
-    bio: "With over 15 years of experience in public service and community development, I have dedicated my life to creating positive change in our society. My journey in politics began with a simple belief: that every citizen deserves equal opportunities and a voice in their community's future.",
+    role: "Political Leader & Youth Social Activist",
+    bio: "With over years of experience in public service and community development, I have dedicated my life to creating positive change in our society. My journey in politics began with a simple belief: that every citizen deserves equal opportunities and a voice in their community's future.",
     achievements: [
       "Led successful community development programs benefiting over 10,000 families",
       "Implemented innovative education reforms in local schools",
       "Established healthcare initiatives for underprivileged communities",
       "Created job opportunities through sustainable economic development programs"
-    ]
+    ],
   };
 
   const values = [
@@ -57,7 +57,7 @@ const About = () => {
               transition={{ duration: 0.8 }}
             >
               <img
-                src="/images/team-3.jpg"
+                src="/images/rakesh_sahani.jpeg"
                 alt={personalInfo.name}
                 className="rounded-lg shadow-xl w-full h-auto"
               />
@@ -68,6 +68,16 @@ const About = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
+              <h2 className="text-3xl font-bold mb-6 text-[var(--primary)]">About Me</h2>
+              <p className="text-lg text-gray-700 mb-8">
+               Namaste! <br />
+I am the elected Ward Chairperson (Ward President) of Barahathawa Municipality, Ward No. 1, located in Sarlahi District, Nepal. With a deep-rooted commitment to community service and local development, I have dedicated myself to improving infrastructure, education, and public welfare in my ward. <br /> <br />
+
+My educational journey began at Kalpabriksha English Boarding School, where I completed my school-level education. I pursued my +2 level education at Bluebird Secondary School, and I am currently continuing my academic path through a bachelor's degree program. <br /> <br />
+
+As a young and energetic local leader, I believe in transparency, innovation, and inclusive governance. Through this platform, I aim to share my journey, development initiatives, and connect with people who are equally passionate about grassroots progress and change.  <br /> <br />
+              </p>
+
               <h2 className="text-3xl font-bold mb-6 text-[var(--primary)]">My Journey</h2>
               <p className="text-lg text-gray-700 mb-8">{personalInfo.bio}</p>
               <h3 className="text-2xl font-bold mb-4 text-[var(--primary)]">Key Achievements</h3>
@@ -128,7 +138,7 @@ const About = () => {
       </section>
 
       {/* Call to Action */}
-    <CTA></CTA>
+      <CTA></CTA>
     </div>
   );
 };

@@ -4,7 +4,7 @@
 @import "tailwindcss";
 
 :root {
-  --primary: #0a5a99;        /* Modern Blue - Primary Brand Color */
+  --primary: #142858;        /* Modern Blue - Primary Brand Color */
   --primary-light: rgba(10,90,153,0.8);  /* Light Blue for hover/effects */
   --background: #EbE9E1;     /* Light Gray Background */
   --text-main: #2C3E50;      /* Dark Slate for readability */
