@@ -117,7 +117,7 @@ const Media = () => {
                     <img
                       src={item.url}
                       alt={item.title}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain scale-150"
                     />
                   </div>
                 ) : (
@@ -130,10 +130,8 @@ const Media = () => {
                     />
                   </div>
                 )}
-                <div className="p-6">
-                  <span className="text-sm text-[var(--primary)] font-medium">
-                    {item.category}
-                  </span>
+                <div className="p-6 pt-16">
+
                   <h3 className="text-xl font-bold mt-2 mb-2 text-[var(--primary)]">
                     {item.title}
                   </h3>

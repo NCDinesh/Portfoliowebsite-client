@@ -4,31 +4,35 @@ import CTA from '../components/CTA';
 
 const Home = () => {
   const heroContent = {
-    title: " Hello! I am Rakesh Sahani",
-    subtitle: "  Dedicated to Public Service and Progress",
-    description: "  As a committed public servant, I strive to lead with integrity, transparency, and a deep commitment to uplifting our community. My mission is to bring positive change through inclusive policies, grassroots initiatives, and active citizen engagement. Together, we can build a more just, vibrant, and prosperous future.",
-    image: "/images/rakesh_sahani2.jpeg"
+    title: "Hello! I am Rakesh Sahani",
+    subtitle: "Dedicated to Public Service and Progress",
+    description:
+      "As a committed public servant, I strive to lead with integrity, transparency, and a deep commitment to uplifting our community. My mission is to bring positive change through inclusive policies, grassroots initiatives, and active citizen engagement. Together, we can build a more just, vibrant, and prosperous future.",
+    image: "/images/rakesh_sahani2.jpeg",
   };
 
   const initiatives = [
     {
       title: "Education Reform",
       description: "Advocating for quality education and equal opportunities for all students.",
-      image: "https://media.istockphoto.com/id/1343472952/photo/happy-school-girls-walking-together-in-a-school-corridor-while-talking-to-each-other.webp?a=1&b=1&s=612x612&w=0&k=20&c=_1TGKXQzzc3H5lQoHA1-ciYpBU_D5K2zPR0Sdk4bLac=",
-      link: "/initiatives/education"
+      image:
+        "https://media.istockphoto.com/id/1343472952/photo/happy-school-girls-walking-together-in-a-school-corridor-while-talking-to-each-other.webp?a=1&b=1&s=612x612&w=0&k=20&c=_1TGKXQzzc3H5lQoHA1-ciYpBU_D5K2zPR0Sdk4bLac=",
+      link: "/initiatives/education",
     },
     {
       title: "Healthcare Access",
       description: "Ensuring affordable and accessible healthcare for every citizen.",
-      image: "https://plus.unsplash.com/premium_photo-1675808575920-8010494407e6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGVhbHRoY2FyZXxlbnwwfHwwfHx8MA%3D%3D",
-      link: "/initiatives/healthcare"
+      image:
+        "https://plus.unsplash.com/premium_photo-1675808575920-8010494407e6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGVhbHRoY2FyZXxlbnwwfHwwfHx8MA%3D%3D",
+      link: "/initiatives/healthcare",
     },
     {
       title: "Economic Growth",
       description: "Creating jobs and fostering sustainable economic development.",
-      image: "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWNvbm9taWMlMjBncm93dGh8ZW58MHx8MHx8fDA%3D",
-      link: "/initiatives/economy"
-    }
+      image:
+        "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWNvbm9taWMlMjBncm93dGh8ZW58MHx8MHx8fDA%3D",
+      link: "/initiatives/economy",
+    },
   ];
 
   const latestNews = [
@@ -36,34 +40,34 @@ const Home = () => {
       title: "Community Town Hall Meeting",
       description: "Join us for an open discussion about local issues and solutions.",
       image: "/images/news1.jpg",
-      date: "March 15, 2024"
+      date: "March 15, 2024",
     },
     {
       title: "Education Initiative Launch",
       description: "New program to support underprivileged students in our district.",
       image: "/images/news2.jpg",
-      date: "March 10, 2024"
+      date: "March 10, 2024",
     },
     {
       title: "Healthcare Summit",
       description: "Bringing together healthcare providers to improve services.",
       image: "/images/news3.jpg",
-      date: "March 5, 2024"
-    }
+      date: "March 5, 2024",
+    },
   ];
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[80vh] bg-[var(--primary)] flex items-center justify-center overflow-hidden mt-20">
-        <div className="absolute inset-0">
+      <section className="relative h-[80vh] min-h-[600px] bg-[var(--primary)] flex items-center justify-center overflow-hidden mt-20">
+        <div className="absolute top-0 left-0 w-full h-full">
           <img
             src={heroContent.image}
             alt="Hero background"
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full opacity-20 object-cover md:object-[50%_25%]"
           />
         </div>
-        <div className="container relative z-10 text-center text-white">
+        <div className=" container relative z-10 text-center text-white px-4 md:px-8 lg:px-16  ">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -190,9 +194,9 @@ const Home = () => {
       </section>
 
       {/* Call to Action Section */}
-     <CTA></CTA>
+      <CTA />
     </div>
   );
 };
 
-export default Home; 
+export default Home;
