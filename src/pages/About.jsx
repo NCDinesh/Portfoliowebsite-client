@@ -32,7 +32,7 @@ const About = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="bg-[var(--primary-light)] text-white py-20">
+      <section className="bg-[var(--primary-light)] text-white py-10">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

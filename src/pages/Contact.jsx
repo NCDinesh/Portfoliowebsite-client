@@ -26,7 +26,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-[var(--background)]">
       {/* Hero Section */}
-      <section className="relative h-[40vh] bg-[var(--primary-light)] flex items-center justify-center mt-20">
+      <section className="relative h-[30vh] bg-[var(--primary-light)] flex items-center justify-center mt-20">
         <div className="container text-center text-white">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}

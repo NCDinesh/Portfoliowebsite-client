@@ -4,7 +4,7 @@ import CTA from '../components/CTA';
 const Vision = () => {
   const visionStatement = {
     title: "My   Vision for a Better Future",
-    description: "I envision a community where every citizen has access to quality education, healthcare, and economic opportunities. A society built on the principles of equality, justice, and sustainable development.",
+    description: "I envision a community where every citizen has access to quality education, healthcare, and economic opportunities.",
     image: "/images/vision.jpg"
   };
 
@@ -64,7 +64,7 @@ const Vision = () => {
   return (
     <div className="min-h-screen pt-20">
       {/* Hero Section */}
-      <section className="bg-[var(--primary-light)] text-white py-20">
+      <section className="bg-[var(--primary-light)] text-white py-10">
         <div className="container">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
